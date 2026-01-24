@@ -1,0 +1,1017 @@
+logn=11
+logq=25
+h=64
+sigma=3.2
+
+arora-gb             :: rop: ≈2^630.2, m: ≈2^387.9, dreg: 68, t: 15, mem: ≈2^254.0, tag: arora-gb, ↻: ≈2^376.2, ζ: 1985, |S|: ≈2^192.9, prop: ≈2^-181.0
+bkw                  :: rop: ≈2^225.7, m: ≈2^209.4, mem: ≈2^205.4, b: 8, t1: 0, t2: 41, ℓ: 7, #cod: 1434, #top: 0, #test: 617, tag: coded-bkw
+usvp                 :: rop: ≈2^263.1, red: ≈2^263.1, δ: 1.002359, β: 826, d: 3496, tag: usvp
+bdd                  :: rop: ≈2^262.5, red: ≈2^262.4, svp: ≈2^257.6, β: 824, η: 846, d: 3303, tag: bdd
+bdd_hybrid           :: rop: ≈2^164.7, red: ≈2^164.2, svp: ≈2^163.1, β: 320, η: 18, ζ: 1222, |S|: ≈2^98.5, d: 1548, prob: ≈2^-41.0, ↻: ≈2^43.2, tag: hybrid
+bdd_mitm_hybrid      :: rop: ≈2^150.8, red: ≈2^149.9, svp: ≈2^149.7, β: 312, η: 2, ζ: 1378, |S|: ≈2^195.0, d: 1369, prob: ≈2^-29.2, ↻: ≈2^31.4, tag: hybrid
+dual                 :: rop: ≈2^270.2, mem: ≈2^182.3, m: 1529, β: 848, d: 3577, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^247.3, red: ≈2^247.3, guess: ≈2^238.8, β: 765, p: 2, ζ: 0, t: 220, β': 755, N: ≈2^154.8, m: ≈2^11.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^630.2, m: ≈2^387.9, dreg: 68, t: 15, mem: ≈2^254.0, tag: arora-gb, ↻: ≈2^376.2, ζ: 1985, |S|: ≈2^192.9, prop: ≈2^-181.0, 'bkw': rop: ≈2^225.7, m: ≈2^209.4, mem: ≈2^205.4, b: 8, t1: 0, t2: 41, ℓ: 7, #cod: 1434, #top: 0, #test: 617, tag: coded-bkw, 'usvp': rop: ≈2^263.1, red: ≈2^263.1, δ: 1.002359, β: 826, d: 3496, tag: usvp, 'bdd': rop: ≈2^262.5, red: ≈2^262.4, svp: ≈2^257.6, β: 824, η: 846, d: 3303, tag: bdd, 'bdd_hybrid': rop: ≈2^164.7, red: ≈2^164.2, svp: ≈2^163.1, β: 320, η: 18, ζ: 1222, |S|: ≈2^98.5, d: 1548, prob: ≈2^-41.0, ↻: ≈2^43.2, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^150.8, red: ≈2^149.9, svp: ≈2^149.7, β: 312, η: 2, ζ: 1378, |S|: ≈2^195.0, d: 1369, prob: ≈2^-29.2, ↻: ≈2^31.4, tag: hybrid, 'dual': rop: ≈2^270.2, mem: ≈2^182.3, m: 1529, β: 848, d: 3577, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^247.3, red: ≈2^247.3, guess: ≈2^238.8, β: 765, p: 2, ζ: 0, t: 220, β': 755, N: ≈2^154.8, m: ≈2^11.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^146.3
+         red: ≈2^145.3
+         svp: ≈2^145.2
+           β:      302
+           η:        2
+           ζ:     1399
+         |S|: ≈2^178.7
+           d:     1318
+        prob: ≈2^-27.4
+      max_hw:       21
+           ↻: ≈2^29.6
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^143.0
+         red: ≈2^142.1
+         svp: ≈2^141.9
+           β:      283
+           η:        2
+           ζ:     1423
+         |S|: ≈2^179.2
+           d:     1236
+        prob: ≈2^-29.5
+      max_hw:       21
+           ↻: ≈2^31.7
+         tag:   hybrid
+
+
+logn=12
+logq=52
+h=64
+sigma=3.2
+
+arora-gb             :: rop: ≈2^694.9, m: ≈2^452.6, dreg: 68, t: 15, mem: ≈2^254.0, tag: arora-gb, ↻: ≈2^440.9, ζ: ≈2^12.0, |S|: ≈2^215.5, prop: ≈2^-223.2
+bkw                  :: rop: ≈2^282.5, m: ≈2^265.4, mem: ≈2^265.7, b: 5, t1: 0, t2: 52, ℓ: 4, #cod: ≈2^11.1, #top: 0, #test: 1919, tag: coded-bkw
+usvp                 :: rop: ≈2^267.5, red: ≈2^267.5, δ: 1.002336, β: 837, d: 7488, tag: usvp
+bdd                  :: rop: ≈2^266.7, red: ≈2^266.6, svp: ≈2^260.7, β: 834, η: 857, d: 7395, tag: bdd
+bdd_hybrid           :: rop: ≈2^165.7, red: ≈2^165.5, svp: ≈2^163.0, β: 387, η: 5, ζ: 1994, |S|: ≈2^114.7, d: 4032, prob: ≈2^-22.1, ↻: ≈2^24.3, tag: hybrid
+bdd_mitm_hybrid      :: rop: ≈2^145.3, red: ≈2^144.6, svp: ≈2^144.0, β: 312, η: 2, ζ: ≈2^11.3, |S|: ≈2^192.2, d: 3124, prob: ≈2^-22.5, ↻: ≈2^24.7, tag: hybrid
+dual                 :: rop: ≈2^271.6, mem: ≈2^183.4, m: ≈2^11.8, β: 848, d: 7626, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^256.9, red: ≈2^256.9, guess: ≈2^248.8, β: 795, p: 2, ζ: 0, t: 230, β': 787, N: ≈2^162.6, m: ≈2^12.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^694.9, m: ≈2^452.6, dreg: 68, t: 15, mem: ≈2^254.0, tag: arora-gb, ↻: ≈2^440.9, ζ: ≈2^12.0, |S|: ≈2^215.5, prop: ≈2^-223.2, 'bkw': rop: ≈2^282.5, m: ≈2^265.4, mem: ≈2^265.7, b: 5, t1: 0, t2: 52, ℓ: 4, #cod: ≈2^11.1, #top: 0, #test: 1919, tag: coded-bkw, 'usvp': rop: ≈2^267.5, red: ≈2^267.5, δ: 1.002336, β: 837, d: 7488, tag: usvp, 'bdd': rop: ≈2^266.7, red: ≈2^266.6, svp: ≈2^260.7, β: 834, η: 857, d: 7395, tag: bdd, 'bdd_hybrid': rop: ≈2^165.7, red: ≈2^165.5, svp: ≈2^163.0, β: 387, η: 5, ζ: 1994, |S|: ≈2^114.7, d: 4032, prob: ≈2^-22.1, ↻: ≈2^24.3, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^145.3, red: ≈2^144.6, svp: ≈2^144.0, β: 312, η: 2, ζ: ≈2^11.3, |S|: ≈2^192.2, d: 3124, prob: ≈2^-22.5, ↻: ≈2^24.7, tag: hybrid, 'dual': rop: ≈2^271.6, mem: ≈2^183.4, m: ≈2^11.8, β: 848, d: 7626, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^256.9, red: ≈2^256.9, guess: ≈2^248.8, β: 795, p: 2, ζ: 0, t: 230, β': 787, N: ≈2^162.6, m: ≈2^12.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^138.6
+         red: ≈2^137.7
+         svp: ≈2^137.5
+           β:      283
+           η:        2
+           ζ: ≈2^11.3
+         |S|: ≈2^165.3
+           d:     2814
+        prob: ≈2^-23.7
+      max_hw:       17
+           ↻: ≈2^25.9
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^135.3
+         red: ≈2^134.5
+         svp: ≈2^134.1
+           β:      277
+           η:        2
+           ζ: ≈2^11.4
+         |S|: ≈2^173.7
+           d:     2761
+        prob: ≈2^-22.2
+      max_hw:       18
+           ↻: ≈2^24.4
+         tag:   hybrid
+
+
+logn=13
+logq=99
+h=64
+sigma=3.2
+
+arora-gb             :: rop: ≈2^759.3, m: ≈2^517.0, dreg: 68, t: 15, mem: ≈2^254.0, tag: arora-gb, ↻: ≈2^505.2, ζ: ≈2^13.0, |S|: ≈2^237.8, prop: ≈2^-265.2
+bkw                  :: rop: ≈2^313.4, m: ≈2^298.7, mem: ≈2^299.6, b: 3, t1: 0, t2: 6, ℓ: 2, #cod: 1404, #top: 0, #test: ≈2^12.7, tag: coded-bkw
+usvp                 :: rop: ≈2^292.1, red: ≈2^292.1, δ: 1.002174, β: 921, d: 15413, tag: usvp
+bdd                  :: rop: ≈2^291.6, red: ≈2^291.6, svp: ≈2^285.9, β: 919, η: 947, d: 15317, tag: bdd
+bdd_hybrid           :: rop: ≈2^170.9, red: ≈2^170.0, svp: ≈2^169.9, β: 392, η: 2, ζ: ≈2^12.0, |S|: ≈2^117.6, d: 7745, prob: ≈2^-24.2, ↻: ≈2^26.4, tag: hybrid
+bdd_mitm_hybrid      :: rop: ≈2^147.4, red: ≈2^146.4, svp: ≈2^146.4, β: 303, η: 2, ζ: ≈2^12.3, |S|: ≈2^186.8, d: 5796, prob: ≈2^-25.8, ↻: ≈2^28.0, tag: hybrid
+dual                 :: rop: ≈2^294.8, mem: ≈2^199.7, m: ≈2^12.9, β: 927, d: 15701, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^285.2, red: ≈2^285.2, guess: ≈2^279.0, β: 892, p: 2, ζ: 0, t: 260, β': 883, N: ≈2^178.4, m: ≈2^13.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^759.3, m: ≈2^517.0, dreg: 68, t: 15, mem: ≈2^254.0, tag: arora-gb, ↻: ≈2^505.2, ζ: ≈2^13.0, |S|: ≈2^237.8, prop: ≈2^-265.2, 'bkw': rop: ≈2^313.4, m: ≈2^298.7, mem: ≈2^299.6, b: 3, t1: 0, t2: 6, ℓ: 2, #cod: 1404, #top: 0, #test: ≈2^12.7, tag: coded-bkw, 'usvp': rop: ≈2^292.1, red: ≈2^292.1, δ: 1.002174, β: 921, d: 15413, tag: usvp, 'bdd': rop: ≈2^291.6, red: ≈2^291.6, svp: ≈2^285.9, β: 919, η: 947, d: 15317, tag: bdd, 'bdd_hybrid': rop: ≈2^170.9, red: ≈2^170.0, svp: ≈2^169.9, β: 392, η: 2, ζ: ≈2^12.0, |S|: ≈2^117.6, d: 7745, prob: ≈2^-24.2, ↻: ≈2^26.4, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^147.4, red: ≈2^146.4, svp: ≈2^146.4, β: 303, η: 2, ζ: ≈2^12.3, |S|: ≈2^186.8, d: 5796, prob: ≈2^-25.8, ↻: ≈2^28.0, tag: hybrid, 'dual': rop: ≈2^294.8, mem: ≈2^199.7, m: ≈2^12.9, β: 927, d: 15701, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^285.2, red: ≈2^285.2, guess: ≈2^279.0, β: 892, p: 2, ζ: 0, t: 260, β': 883, N: ≈2^178.4, m: ≈2^13.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^141.0
+         red: ≈2^140.2
+         svp: ≈2^139.8
+           β:      285
+           η:        2
+           ζ: ≈2^12.3
+         |S|: ≈2^163.3
+           d:     5445
+        prob: ≈2^-24.6
+      max_hw:       15
+           ↻: ≈2^26.8
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^137.7
+         red: ≈2^136.9
+         svp: ≈2^136.4
+           β:      279
+           η:        2
+           ζ: ≈2^12.3
+         |S|: ≈2^172.9
+           d:     5321
+        prob: ≈2^-23.0
+      max_hw:       16
+           ↻: ≈2^25.2
+         tag:   hybrid
+
+
+logn=14
+logq=219
+h=64
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^142.1
+         red: ≈2^141.2
+         svp: ≈2^141.0
+           β:      282
+           η:        2
+           ζ: ≈2^13.2
+         |S|: ≈2^172.6
+           d:    12893
+        prob: ≈2^-25.2
+           ↻: ≈2^27.4
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^264.0
+         red: ≈2^264.0
+       guess: ≈2^248.8
+           β:      813
+           p:        2
+           ζ:        0
+           t:      230
+          β':      811
+           N: ≈2^162.6
+           m: ≈2^14.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^134.3
+         red: ≈2^133.3
+         svp: ≈2^133.3
+           β:      294
+           η:        2
+           ζ: ≈2^13.2
+         |S|: ≈2^165.5
+           d:    13417
+        prob: ≈2^-13.9
+      max_hw:       14
+           ↻: ≈2^16.1
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^131.1
+         red: ≈2^130.3
+         svp: ≈2^129.9
+           β:      271
+           η:        2
+           ζ: ≈2^13.2
+         |S|: ≈2^166.3
+           d:    12416
+        prob: ≈2^-17.4
+      max_hw:       14
+           ↻: ≈2^19.6
+         tag:   hybrid
+
+
+logn=15
+logq=431
+h=64
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^145.6
+         red: ≈2^144.7
+         svp: ≈2^144.5
+           β:      272
+           η:        2
+           ζ: ≈2^14.2
+         |S|: ≈2^165.2
+           d:    24576
+        prob: ≈2^-30.5
+           ↻: ≈2^32.7
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^274.0
+         red: ≈2^274.0
+       guess: ≈2^258.9
+           β:      845
+           p:        2
+           ζ:        0
+           t:      240
+          β':      845
+           N: ≈2^170.2
+           m: ≈2^15.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^137.0
+         red: ≈2^136.2
+         svp: ≈2^135.7
+           β:      285
+           η:        2
+           ζ: ≈2^14.2
+         |S|: ≈2^156.7
+           d:    25783
+        prob: ≈2^-18.4
+      max_hw:       12
+           ↻: ≈2^20.6
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^133.7
+         red: ≈2^133.0
+         svp: ≈2^132.5
+           β:      279
+           η:        2
+           ζ: ≈2^14.2
+         |S|: ≈2^168.4
+           d:    25255
+        prob: ≈2^-16.8
+      max_hw:       13
+           ↻: ≈2^19.0
+         tag:   hybrid
+
+
+logn=16
+logq=930
+h=64
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^143.2
+         red: ≈2^142.5
+         svp: ≈2^141.7
+           β:      255
+           η:        2
+           ζ: ≈2^15.2
+         |S|: ≈2^152.4
+           d:    52262
+        prob: ≈2^-32.0
+           ↻: ≈2^34.2
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^254.6
+         red: ≈2^254.6
+       guess: ≈2^238.8
+           β:      772
+           p:        2
+           ζ:        0
+           t:      220
+          β':      779
+           N: ≈2^133.2
+           m: ≈2^16.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^133.5
+         red: ≈2^132.7
+         svp: ≈2^132.3
+           β:      287
+           η:        2
+           ζ: ≈2^15.0
+         |S|: ≈2^154.7
+           d:    58239
+        prob: ≈2^-13.1
+      max_hw:       11
+           ↻: ≈2^15.3
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^130.4
+         red: ≈2^129.5
+         svp: ≈2^129.2
+           β:      281
+           η:        2
+           ζ: ≈2^15.1
+         |S|: ≈2^167.5
+           d:    57136
+        prob: ≈2^-11.6
+      max_hw:       12
+           ↻: ≈2^13.8
+         tag:   hybrid
+
+
+logn=17
+logq=2022
+h=64
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^140.2
+         red: ≈2^139.5
+         svp: ≈2^138.8
+           β:      252
+           η:        2
+           ζ: ≈2^16.0
+         |S|: ≈2^148.6
+           d:   116764
+        prob: ≈2^-28.6
+           ↻: ≈2^30.8
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^233.8
+         red: ≈2^233.8
+       guess: ≈2^208.6
+           β:      694
+           p:        2
+           ζ:        0
+           t:      190
+          β':      709
+           N: ≈2^44.9
+           m: ≈2^17.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^129.7
+         red: ≈2^128.9
+         svp: ≈2^128.5
+           β:      286
+           η:        2
+           ζ: ≈2^15.9
+         |S|: ≈2^150.7
+           d:   130260
+        prob:    0.003
+      max_hw:       10
+           ↻:     1565
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^126.3
+         red: ≈2^125.7
+         svp: ≈2^124.9
+           β:      258
+           η:        2
+           ζ: ≈2^16.0
+         |S|: ≈2^151.7
+           d:   119195
+        prob: ≈2^-13.1
+      max_hw:       10
+           ↻: ≈2^15.3
+         tag:   hybrid
+
+
+logn=11
+logq=42
+h=128
+sigma=3.2
+
+arora-gb             :: rop: ≈2^inf, m: ≈2^716.9, dreg: 115, t: 48, mem: ≈2^539.8, tag: arora-gb, ↻: ≈2^557.0, ζ: 1882, |S|: ≈2^153.5, prop: ≈2^-401.3
+bkw                  :: rop: ≈2^272.7, m: ≈2^256.9, mem: ≈2^257.9, b: 6, t1: 0, t2: 60, ℓ: 5, #cod: 1735, #top: 0, #test: 313, tag: coded-bkw
+usvp                 :: rop: ≈2^159.3, red: ≈2^159.3, δ: 1.003650, β: 453, d: 3713, tag: usvp
+bdd                  :: rop: ≈2^158.0, red: ≈2^157.9, svp: ≈2^153.7, β: 448, η: 474, d: 3765, tag: bdd
+bdd_hybrid           :: rop: ≈2^148.1, red: ≈2^147.7, svp: ≈2^146.1, β: 351, η: 22, ζ: 512, |S|: ≈2^103.4, d: 3192, prob: ≈2^-14.8, ↻: ≈2^17.0, tag: hybrid
+bdd_mitm_hybrid      :: rop: ≈2^146.2, red: ≈2^145.6, svp: ≈2^144.6, β: 322, η: 2, ζ: 761, |S|: ≈2^197.4, d: 2837, prob: ≈2^-20.8, ↻: ≈2^23.0, tag: hybrid
+dual                 :: rop: ≈2^161.9, mem: ≈2^105.6, m: 1834, β: 459, d: 3882, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^153.0, red: ≈2^152.9, guess: ≈2^148.0, β: 426, p: 2, ζ: 0, t: 130, β': 436, N: ≈2^87.9, m: ≈2^11.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^inf, m: ≈2^716.9, dreg: 115, t: 48, mem: ≈2^539.8, tag: arora-gb, ↻: ≈2^557.0, ζ: 1882, |S|: ≈2^153.5, prop: ≈2^-401.3, 'bkw': rop: ≈2^272.7, m: ≈2^256.9, mem: ≈2^257.9, b: 6, t1: 0, t2: 60, ℓ: 5, #cod: 1735, #top: 0, #test: 313, tag: coded-bkw, 'usvp': rop: ≈2^159.3, red: ≈2^159.3, δ: 1.003650, β: 453, d: 3713, tag: usvp, 'bdd': rop: ≈2^158.0, red: ≈2^157.9, svp: ≈2^153.7, β: 448, η: 474, d: 3765, tag: bdd, 'bdd_hybrid': rop: ≈2^148.1, red: ≈2^147.7, svp: ≈2^146.1, β: 351, η: 22, ζ: 512, |S|: ≈2^103.4, d: 3192, prob: ≈2^-14.8, ↻: ≈2^17.0, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^146.2, red: ≈2^145.6, svp: ≈2^144.6, β: 322, η: 2, ζ: 761, |S|: ≈2^197.4, d: 2837, prob: ≈2^-20.8, ↻: ≈2^23.0, tag: hybrid, 'dual': rop: ≈2^161.9, mem: ≈2^105.6, m: 1834, β: 459, d: 3882, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^153.0, red: ≈2^152.9, guess: ≈2^148.0, β: 426, p: 2, ζ: 0, t: 130, β': 436, N: ≈2^87.9, m: ≈2^11.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^159.2
+         red: ≈2^158.2
+         svp: ≈2^158.1
+           β:      288
+           η:        2
+           ζ:     1024
+         |S|: ≈2^169.7
+           d:     2443
+        prob: ≈2^-43.1
+      max_hw:       21
+           ↻: ≈2^45.3
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^137.5
+         red: ≈2^136.9
+         svp: ≈2^135.8
+           β:      330
+           η:        2
+           ζ:      737
+         |S|: ≈2^201.4
+           d:     2890
+        prob:    0.001
+      max_hw:       28
+           ↻: ≈2^12.1
+         tag:   hybrid
+
+
+logn=12
+logq=82
+h=128
+sigma=3.2
+
+arora-gb             :: rop: ≈2^inf, m: ≈2^843.1, dreg: 116, t: 48, mem: ≈2^546.9, tag: arora-gb, ↻: ≈2^683.2, ζ: ≈2^11.9, |S|: ≈2^153.8, prop: ≈2^-527.2
+bkw                  :: rop: ≈2^430.8, m: ≈2^414.5, mem: ≈2^415.4, b: 5, t1: 0, t2: 43, ℓ: 4, #cod: ≈2^11.5, #top: 0, #test: 1121, tag: coded-bkw
+usvp                 :: rop: ≈2^166.0, red: ≈2^166.0, δ: 1.003541, β: 473, d: 7624, tag: usvp
+bdd                  :: rop: ≈2^165.2, red: ≈2^165.2, svp: ≈2^159.6, β: 470, η: 495, d: 7839, tag: bdd
+bdd_hybrid           :: rop: ≈2^149.1, red: ≈2^148.7, svp: ≈2^146.9, β: 380, η: 22, ζ: 769, |S|: ≈2^111.7, d: 6751, prob: 0.011, ↻: 428, tag: hybrid
+bdd_mitm_hybrid      :: rop: ≈2^142.9, red: ≈2^142.4, svp: ≈2^140.9, β: 312, η: 2, ζ: 1412, |S|: ≈2^189.0, d: 5622, prob: ≈2^-19.3, ↻: ≈2^21.5, tag: hybrid
+dual                 :: rop: ≈2^167.8, mem: ≈2^109.8, m: ≈2^11.9, β: 476, d: 7924, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^162.5, red: ≈2^162.4, guess: ≈2^158.1, β: 456, p: 2, ζ: 0, t: 140, β': 468, N: ≈2^90.8, m: ≈2^12.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^inf, m: ≈2^843.1, dreg: 116, t: 48, mem: ≈2^546.9, tag: arora-gb, ↻: ≈2^683.2, ζ: ≈2^11.9, |S|: ≈2^153.8, prop: ≈2^-527.2, 'bkw': rop: ≈2^430.8, m: ≈2^414.5, mem: ≈2^415.4, b: 5, t1: 0, t2: 43, ℓ: 4, #cod: ≈2^11.5, #top: 0, #test: 1121, tag: coded-bkw, 'usvp': rop: ≈2^166.0, red: ≈2^166.0, δ: 1.003541, β: 473, d: 7624, tag: usvp, 'bdd': rop: ≈2^165.2, red: ≈2^165.2, svp: ≈2^159.6, β: 470, η: 495, d: 7839, tag: bdd, 'bdd_hybrid': rop: ≈2^149.1, red: ≈2^148.7, svp: ≈2^146.9, β: 380, η: 22, ζ: 769, |S|: ≈2^111.7, d: 6751, prob: 0.011, ↻: 428, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^142.9, red: ≈2^142.4, svp: ≈2^140.9, β: 312, η: 2, ζ: 1412, |S|: ≈2^189.0, d: 5622, prob: ≈2^-19.3, ↻: ≈2^21.5, tag: hybrid, 'dual': rop: ≈2^167.8, mem: ≈2^109.8, m: ≈2^11.9, β: 476, d: 7924, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^162.5, red: ≈2^162.4, guess: ≈2^158.1, β: 456, p: 2, ζ: 0, t: 140, β': 468, N: ≈2^90.8, m: ≈2^12.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^135.0
+         red: ≈2^134.2
+         svp: ≈2^133.7
+           β:      335
+           η:        2
+           ζ:     1303
+         |S|: ≈2^191.5
+           d:     5901
+        prob:    0.038
+      max_hw:       23
+           ↻:      119
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^132.9
+         red: ≈2^132.4
+         svp: ≈2^131.1
+           β:      319
+           η:        2
+           ζ:     1375
+         |S|: ≈2^193.2
+           d:     5711
+        prob:    0.006
+      max_hw:       23
+           ↻:      767
+         tag:   hybrid
+
+
+logn=13
+logq=165
+h=128
+sigma=3.2
+
+logn=13
+logq=165
+h=128
+sigma=3.2
+
+arora-gb             :: rop: ≈2^inf, m: ≈2^972.6, dreg: 116, t: 48, mem: ≈2^546.9, tag: arora-gb, ↻: ≈2^812.7, ζ: ≈2^13.0, |S|: ≈2^169.3, prop: ≈2^-641.2
+bkw                  :: rop: ≈2^545.7, m: ≈2^525.4, mem: ≈2^502.4, b: 3, t1: 0, t2: 172, ℓ: 2, #cod: ≈2^12.4, #top: 0, #test: ≈2^11.5, tag: coded-bkw
+usvp                 :: rop: ≈2^167.1, red: ≈2^167.1, δ: 1.003541, β: 473, d: 15840, tag: usvp
+bdd                  :: rop: ≈2^166.8, red: ≈2^166.8, svp: ≈2^160.4, β: 472, η: 498, d: 15740, tag: bdd
+bdd_mitm_hybrid      :: rop: ≈2^139.9, red: ≈2^139.4, svp: ≈2^138.0, β: 320, η: 2, ζ: ≈2^11.2, |S|: ≈2^191.5, d: 11809, prob: ≈2^-13.0, ↻: ≈2^15.2, tag: hybrid
+dual                 :: rop: ≈2^168.7, mem: ≈2^110.4, m: ≈2^12.9, β: 475, d: 16073, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^165.7, red: ≈2^165.6, guess: ≈2^158.1, β: 464, p: 2, ζ: 0, t: 140, β': 479, N: ≈2^96.0, m: ≈2^13.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^inf, m: ≈2^972.6, dreg: 116, t: 48, mem: ≈2^546.9, tag: arora-gb, ↻: ≈2^812.7, ζ: ≈2^13.0, |S|: ≈2^169.3, prop: ≈2^-641.2, 'bkw': rop: ≈2^545.7, m: ≈2^525.4, mem: ≈2^502.4, b: 3, t1: 0, t2: 172, ℓ: 2, #cod: ≈2^12.4, #top: 0, #test: ≈2^11.5, tag: coded-bkw, 'usvp': rop: ≈2^167.1, red: ≈2^167.1, δ: 1.003541, β: 473, d: 15840, tag: usvp, 'bdd': rop: ≈2^166.8, red: ≈2^166.8, svp: ≈2^160.4, β: 472, η: 498, d: 15740, tag: bdd, 'bdd_hybrid': rop: ≈2^166.9, red: ≈2^166.9, svp: ≈2^159.9, β: 472, η: 496, ζ: 0, |S|: 1, d: 16269, prob: 1, ↻: 1, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^139.9, red: ≈2^139.4, svp: ≈2^138.0, β: 320, η: 2, ζ: ≈2^11.2, |S|: ≈2^191.5, d: 11809, prob: ≈2^-13.0, ↻: ≈2^15.2, tag: hybrid, 'dual': rop: ≈2^168.7, mem: ≈2^110.4, m: ≈2^12.9, β: 475, d: 16073, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^165.7, red: ≈2^165.6, guess: ≈2^158.1, β: 464, p: 2, ζ: 0, t: 140, β': 479, N: ≈2^96.0, m: ≈2^13.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^136.9
+         red: ≈2^136.7
+         svp: ≈2^134.0
+           β:      349
+           η:        2
+           ζ: ≈2^11.0
+         |S|: ≈2^191.8
+           d:    12605
+        prob:    0.197
+      max_hw:       21
+           ↻:       21
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^137.1
+         red: ≈2^136.8
+         svp: ≈2^134.6
+           β:      351
+           η:        2
+           ζ: ≈2^11.0
+         |S|: ≈2^206.9
+           d:    12634
+        prob:    0.267
+      max_hw:       23
+           ↻:       15
+         tag:   hybrid
+
+
+logn=14
+logq=337
+h=128
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^138.0
+         red: ≈2^137.5
+         svp: ≈2^136.1
+           β:      310
+           η:        2
+           ζ: ≈2^12.1
+         |S|: ≈2^183.8
+           d:    23977
+        prob: ≈2^-12.9
+           ↻: ≈2^15.1
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^164.9
+         red: ≈2^164.9
+       guess: ≈2^158.1
+           β:      458
+           p:        2
+           ζ:        0
+           t:      140
+          β':      476
+           N: ≈2^91.1
+           m: ≈2^14.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^128.3
+         red: ≈2^128.1
+         svp: ≈2^125.7
+           β:      314
+           η:        2
+           ζ: ≈2^12.1
+         |S|: ≈2^170.1
+           d:    24205
+        prob:    0.189
+      max_hw:       16
+           ↻:       22
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^126.4
+         red: ≈2^126.1
+         svp: ≈2^124.0
+           β:      306
+           η:        2
+           ζ: ≈2^12.2
+         |S|: ≈2^180.3
+           d:    23749
+        prob:    0.157
+      max_hw:       17
+           ↻:       27
+         tag:   hybrid
+
+
+logn=15
+logq=700
+h=128
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^135.5
+         red: ≈2^135.1
+         svp: ≈2^133.2
+           β:      306
+           η:        2
+           ζ: ≈2^12.9
+         |S|: ≈2^178.7
+           d:    49916
+        prob:    0.001
+           ↻: ≈2^12.7
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^160.8
+         red: ≈2^160.8
+       guess: ≈2^137.9
+           β:      439
+           p:        2
+           ζ:        0
+           t:      120
+          β':      463
+           N: ≈2^59.3
+           m: ≈2^15.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^124.9
+         red: ≈2^124.5
+         svp: ≈2^122.9
+           β:      305
+           η:        2
+           ζ: ≈2^12.9
+         |S|: ≈2^163.7
+           d:    49799
+        prob:    0.602
+      max_hw:       14
+           ↻:        5
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^123.0
+         red: ≈2^122.5
+         svp: ≈2^121.2
+           β:      297
+           η:        2
+           ζ: ≈2^13.0
+         |S|: ≈2^175.0
+           d:    48842
+        prob:    0.536
+      max_hw:       15
+           ↻:        6
+         tag:   hybrid
+
+
+logn=16
+logq=1450
+h=128
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^133.8
+         red: ≈2^133.5
+         svp: ≈2^131.3
+           β:      297
+           η:        2
+           ζ: ≈2^13.8
+         |S|: ≈2^171.1
+           d:   101974
+        prob:    0.001
+           ↻: ≈2^12.5
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^156.2
+         red: ≈2^156.2
+       guess: ≈2^137.9
+           β:      419
+           p:        2
+           ζ:        0
+           t:      120
+          β':      447
+           N: ≈2^76.1
+           m: ≈2^16.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^122.3
+         red: ≈2^122.0
+         svp: ≈2^119.8
+           β:      295
+           η:        2
+           ζ: ≈2^13.8
+         |S|: ≈2^154.0
+           d:   101454
+        prob:    0.785
+      max_hw:       12
+           ↻:        3
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^120.5
+         red: ≈2^120.2
+         svp: ≈2^118.3
+           β:      287
+           η:        2
+           ζ: ≈2^13.9
+         |S|: ≈2^166.3
+           d:    99517
+        prob:    0.684
+      max_hw:       13
+           ↻:        4
+         tag:   hybrid
+
+
+logn=17
+logq=2900
+h=128
+sigma=3.2
+
+plain primal hybrid estimate:
+         rop: ≈2^135.8
+         red: ≈2^135.5
+         svp: ≈2^133.1
+           β:      303
+           η:        2
+           ζ: ≈2^14.7
+         |S|: ≈2^171.8
+           d:   207342
+        prob:    0.001
+           ↻: ≈2^11.9
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^157.4
+         red: ≈2^157.4
+       guess: ≈2^137.9
+           β:      420
+           p:        2
+           ζ:        0
+           t:      120
+          β':      451
+           N: ≈2^78.8
+           m: ≈2^17.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^123.4
+         red: ≈2^123.0
+         svp: ≈2^121.3
+           β:      297
+           η:        2
+           ζ: ≈2^14.8
+         |S|: ≈2^153.1
+           d:   204387
+        prob:    0.900
+      max_hw:       11
+           ↻:        2
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^121.6
+         red: ≈2^121.4
+         svp: ≈2^118.2
+           β:      295
+           η:        2
+           ζ: ≈2^14.8
+         |S|: ≈2^165.9
+           d:   203117
+        prob:    0.991
+      max_hw:       12
+           ↻:        1
+         tag:   hybrid
+
+logn=11
+logq=46
+h=192
+sigma=3.19
+
+arora-gb             :: rop: ≈2^inf, m: ≈2^891.6, dreg: 147, t: 59, mem: ≈2^800.7, tag: arora-gb, ↻: ≈2^647.0, ζ: 1754, |S|: 1, prop: ≈2^-644.8
+bkw                  :: rop: ≈2^297.7, m: ≈2^281.4, mem: ≈2^282.4, b: 6, t1: 10, t2: 76, ℓ: 5, #cod: 1792, #top: 0, #test: 196, tag: coded-bkw
+usvp                 :: rop: ≈2^600.1, red: ≈2^600.1, δ: 1.001163, β: 2065, d: 2066, tag: usvp
+bdd                  :: rop: ≈2^170.2, red: ≈2^170.2, svp: ≈2^161.5, β: 494, η: 502, d: 2842, tag: bdd
+bdd_hybrid           :: rop: ≈2^145.7, red: ≈2^145.3, svp: ≈2^143.9, β: 385, η: 22, ζ: 255, |S|: ≈2^113.2, d: 3746, prob: 0.156, ↻: 28, tag: hybrid
+dual                 :: rop: ≈2^148.3, mem: ≈2^95.9, m: 1888, β: 410, d: 3936, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^140.9, red: ≈2^140.8, guess: ≈2^137.9, β: 382, p: 2, ζ: 0, t: 120, β': 395, N: ≈2^81.7, m: ≈2^11.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^inf, m: ≈2^891.6, dreg: 147, t: 59, mem: ≈2^800.7, tag: arora-gb, ↻: ≈2^647.0, ζ: 1754, |S|: 1, prop: ≈2^-644.8, 'bkw': rop: ≈2^297.7, m: ≈2^281.4, mem: ≈2^282.4, b: 6, t1: 10, t2: 76, ℓ: 5, #cod: 1792, #top: 0, #test: 196, tag: coded-bkw, 'usvp': rop: ≈2^600.1, red: ≈2^600.1, δ: 1.001163, β: 2065, d: 2066, tag: usvp, 'bdd': rop: ≈2^170.2, red: ≈2^170.2, svp: ≈2^161.5, β: 494, η: 502, d: 2842, tag: bdd, 'bdd_hybrid': rop: ≈2^145.7, red: ≈2^145.3, svp: ≈2^143.9, β: 385, η: 22, ζ: 255, |S|: ≈2^113.2, d: 3746, prob: 0.156, ↻: 28, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^150.0, red: ≈2^149.5, svp: ≈2^148.4, β: 363, η: 2, ζ: 505, |S|: ≈2^219.4, d: 3416, prob: ≈2^-13.1, ↻: ≈2^15.3, tag: hybrid, 'dual': rop: ≈2^148.3, mem: ≈2^95.9, m: 1888, β: 410, d: 3936, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^140.9, red: ≈2^140.8, guess: ≈2^137.9, β: 382, p: 2, ζ: 0, t: 120, β': 395, N: ≈2^81.7, m: ≈2^11.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^143.7
+         red: ≈2^143.4
+         svp: ≈2^141.3
+           β:      349
+           η:        2
+           ζ:      530
+         |S|: ≈2^198.6
+           d:     3339
+        prob:    0.001
+      max_hw:       30
+           ↻: ≈2^13.1
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^141.8
+         red: ≈2^141.4
+         svp: ≈2^140.0
+           β:      347
+           η:        2
+           ζ:      545
+         |S|: ≈2^209.9
+           d:     3316
+        prob:    0.001
+      max_hw:       32
+           ↻: ≈2^11.6
+         tag:   hybrid
+
+
+logn=12
+logq=92
+h=192
+sigma=3.19
+
+arora-gb             :: rop: ≈2^inf, m: ≈2^inf, dreg: 147, t: 59, mem: ≈2^800.7, tag: arora-gb, ↻: ≈2^845.8, ζ: ≈2^11.9, |S|: 1, prop: ≈2^-843.6
+bkw                  :: rop: ≈2^481.7, m: ≈2^464.9, mem: ≈2^465.9, b: 5, t1: 0, t2: 59, ℓ: 4, #cod: ≈2^11.7, #top: 0, #test: 737, tag: coded-bkw
+usvp                 :: rop: ≈2^147.4, red: ≈2^147.4, δ: 1.003941, β: 406, d: 7669, tag: usvp
+bdd                  :: rop: ≈2^146.7, red: ≈2^146.6, svp: ≈2^142.3, β: 403, η: 433, d: 7844, tag: bdd
+bdd_hybrid           :: rop: ≈2^143.5, red: ≈2^143.5, svp: ≈2^137.9, β: 348, η: 21, ζ: 578, |S|: ≈2^99.6, d: 7152, prob: 0.001, ↻: ≈2^12.3, tag: hybrid
+bdd_mitm_hybrid      :: rop: ≈2^142.9, red: ≈2^142.7, svp: ≈2^139.9, β: 354, η: 2, ζ: 768, |S|: ≈2^209.0, d: 7007, prob: 0.005, ↻: 905, tag: hybrid
+dual                 :: rop: ≈2^149.0, mem: ≈2^96.5, m: ≈2^11.9, β: 408, d: 7989, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^144.8, red: ≈2^144.8, guess: ≈2^137.9, β: 393, p: 2, ζ: 0, t: 120, β': 408, N: ≈2^80.0, m: ≈2^12.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^inf, m: ≈2^inf, dreg: 147, t: 59, mem: ≈2^800.7, tag: arora-gb, ↻: ≈2^845.8, ζ: ≈2^11.9, |S|: 1, prop: ≈2^-843.6, 'bkw': rop: ≈2^481.7, m: ≈2^464.9, mem: ≈2^465.9, b: 5, t1: 0, t2: 59, ℓ: 4, #cod: ≈2^11.7, #top: 0, #test: 737, tag: coded-bkw, 'usvp': rop: ≈2^147.4, red: ≈2^147.4, δ: 1.003941, β: 406, d: 7669, tag: usvp, 'bdd': rop: ≈2^146.7, red: ≈2^146.6, svp: ≈2^142.3, β: 403, η: 433, d: 7844, tag: bdd, 'bdd_hybrid': rop: ≈2^143.5, red: ≈2^143.5, svp: ≈2^137.9, β: 348, η: 21, ζ: 578, |S|: ≈2^99.6, d: 7152, prob: 0.001, ↻: ≈2^12.3, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^142.9, red: ≈2^142.7, svp: ≈2^139.9, β: 354, η: 2, ζ: 768, |S|: ≈2^209.0, d: 7007, prob: 0.005, ↻: 905, tag: hybrid, 'dual': rop: ≈2^149.0, mem: ≈2^96.5, m: ≈2^11.9, β: 408, d: 7989, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^144.8, red: ≈2^144.8, guess: ≈2^137.9, β: 393, p: 2, ζ: 0, t: 120, β': 408, N: ≈2^80.0, m: ≈2^12.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^135.0
+         red: ≈2^134.5
+         svp: ≈2^133.3
+           β:      339
+           η:        2
+           ζ:      895
+         |S|: ≈2^191.9
+           d:     6766
+        prob:    0.074
+      max_hw:       25
+           ↻:       60
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^133.5
+         red: ≈2^133.2
+         svp: ≈2^130.8
+           β:      326
+           η:        2
+           ζ:      960
+         |S|: ≈2^194.3
+           d:     6601
+        prob:    0.015
+      max_hw:       25
+           ↻:      305
+         tag:   hybrid
+
+
+logn=13
+logq=186
+h=192
+sigma=3.19
+
+arora-gb             :: rop: ≈2^inf, m: ≈2^inf, dreg: 148, t: 59, mem: ≈2^808.5, tag: arora-gb, ↻: ≈2^inf, ζ: ≈2^12.9, |S|: 1, prop: ≈2^-1032.8
+bkw                  :: rop: ≈2^691.2, m: ≈2^670.0, mem: ≈2^566.4, b: 3, t1: 65, t2: 278, ℓ: 2, #cod: ≈2^12.6, #top: 0, #test: 1794, tag: coded-bkw
+usvp                 :: rop: ≈2^147.1, red: ≈2^147.1, δ: 1.003975, β: 401, d: 15931, tag: usvp
+bdd                  :: rop: ≈2^146.8, red: ≈2^146.8, svp: ≈2^141.8, β: 400, η: 431, d: 15795, tag: bdd
+bdd_hybrid           :: rop: ≈2^141.1, red: ≈2^141.0, svp: ≈2^135.1, β: 365, η: 23, ζ: 688, |S|: ≈2^102.9, d: 15109, prob: 0.251, ↻: 16, tag: hybrid
+dual                 :: rop: ≈2^148.4, mem: ≈2^96.1, m: ≈2^13.0, β: 402, d: 16137, ↻: 1, tag: dual
+dual_hybrid          :: rop: ≈2^146.4, red: ≈2^146.4, guess: ≈2^127.8, β: 395, p: 2, ζ: 0, t: 110, β': 414, N: ≈2^82.6, m: ≈2^13.0
+plain lwe estimate:
+{'arora-gb': rop: ≈2^inf, m: ≈2^inf, dreg: 148, t: 59, mem: ≈2^808.5, tag: arora-gb, ↻: ≈2^inf, ζ: ≈2^12.9, |S|: 1, prop: ≈2^-1032.8, 'bkw': rop: ≈2^691.2, m: ≈2^670.0, mem: ≈2^566.4, b: 3, t1: 65, t2: 278, ℓ: 2, #cod: ≈2^12.6, #top: 0, #test: 1794, tag: coded-bkw, 'usvp': rop: ≈2^147.1, red: ≈2^147.1, δ: 1.003975, β: 401, d: 15931, tag: usvp, 'bdd': rop: ≈2^146.8, red: ≈2^146.8, svp: ≈2^141.8, β: 400, η: 431, d: 15795, tag: bdd, 'bdd_hybrid': rop: ≈2^141.1, red: ≈2^141.0, svp: ≈2^135.1, β: 365, η: 23, ζ: 688, |S|: ≈2^102.9, d: 15109, prob: 0.251, ↻: 16, tag: hybrid, 'bdd_mitm_hybrid': rop: ≈2^141.8, red: ≈2^141.5, svp: ≈2^139.4, β: 367, η: 2, ζ: 1021, |S|: ≈2^215.5, d: 14806, prob: 0.264, ↻: 15, tag: hybrid, 'dual': rop: ≈2^148.4, mem: ≈2^96.1, m: ≈2^13.0, β: 402, d: 16137, ↻: 1, tag: dual, 'dual_hybrid': rop: ≈2^146.4, red: ≈2^146.4, guess: ≈2^127.8, β: 395, p: 2, ζ: 0, t: 110, β': 414, N: ≈2^82.6, m: ≈2^13.0}
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^130.9
+         red: ≈2^130.5
+         svp: ≈2^129.0
+           β:      330
+           η:        2
+           ζ:     1534
+         |S|: ≈2^183.4
+           d:    13732
+        prob:    0.372
+      max_hw:       21
+           ↻:       10
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^131.1
+         red: ≈2^130.5
+         svp: ≈2^129.7
+           β:      330
+           η:        2
+           ζ:     1534
+         |S|: ≈2^197.7
+           d:    13732
+        prob:    0.372
+      max_hw:       23
+           ↻:       10
+         tag:   hybrid
+
+
+logn=14
+logq=377
+h=192
+sigma=3.19
+
+plain primal hybrid estimate:
+         rop: ≈2^136.7
+         red: ≈2^136.4
+         svp: ≈2^134.2
+           β:      345
+           η:        2
+           ζ:     2043
+         |S|: ≈2^201.3
+           d:    29158
+        prob:    0.264
+           ↻:       15
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^146.7
+         red: ≈2^146.7
+       guess: ≈2^127.8
+           β:      392
+           p:        2
+           ζ:        0
+           t:      110
+          β':      415
+           N: ≈2^80.4
+           m: ≈2^14.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^126.6
+         red: ≈2^126.4
+         svp: ≈2^124.1
+           β:      314
+           η:        2
+           ζ: ≈2^11.5
+         |S|: ≈2^170.1
+           d:    27285
+        prob:    0.536
+      max_hw:       17
+           ↻:        6
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^125.3
+         red: ≈2^125.1
+         svp: ≈2^122.3
+           β:      308
+           η:        2
+           ζ: ≈2^11.6
+         |S|: ≈2^179.8
+           d:    26925
+        prob:    0.438
+      max_hw:       18
+           ↻:        8
+         tag:   hybrid
+
+
+logn=15
+logq=767
+h=192
+sigma=3.19
+
+plain primal hybrid estimate:
+         rop: ≈2^134.1
+         red: ≈2^133.9
+         svp: ≈2^131.2
+           β:      320
+           η:        2
+           ζ: ≈2^12.2
+         |S|: ≈2^184.3
+           d:    56783
+        prob:    0.027
+           ↻:      170
+         tag:   hybrid
+
+plain dual hybrid estimate:
+         rop: ≈2^145.8
+         red: ≈2^145.8
+       guess: ≈2^127.8
+           β:      385
+           p:        2
+           ζ:        0
+           t:      110
+          β':      412
+           N: ≈2^80.7
+           m: ≈2^15.0
+
+ring estimate (mitm heuristic = estimator):
+         rop: ≈2^124.7
+         red: ≈2^124.1
+         svp: ≈2^123.1
+           β:      308
+           η:        2
+           ζ: ≈2^12.4
+         |S|: ≈2^166.3
+           d:    55167
+        prob:    0.900
+      max_hw:       15
+           ↻:        2
+         tag:   hybrid
+
+
+ring estimate (mitm heuristic = square root):
+         rop: ≈2^123.3
+         red: ≈2^122.8
+         svp: ≈2^121.6
+           β:      301
+           η:        2
+           ζ: ≈2^12.5
+         |S|: ≈2^177.2
+           d:    54347
+        prob:    0.785
+      max_hw:       16
+           ↻:        3
+         tag:   hybrid
+
+
+
+

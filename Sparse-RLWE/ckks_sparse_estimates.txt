@@ -1,0 +1,968 @@
+logn=13
+logq=55
+h=31
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^156.2
+         red: ≈2^156.0
+         svp: ≈2^153.3
+           β:      360
+           η:        2
+           ζ: ≈2^12.7
+         |S|: ≈2^107.4
+           d:     1840
+        prob: ≈2^-21.4
+      max_hw:        9
+           ↻: ≈2^23.6
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^132.5
+         red: ≈2^132.1
+         svp: ≈2^130.4
+           β:      343
+           η:        2
+           ζ: ≈2^12.8
+         |S|: ≈2^209.5
+           d:     1105
+        prob:    0.102
+      max_hw:       19
+           ↻:       43
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^127.9
+         red: ≈2^127.4
+         svp: ≈2^126.2
+           β:      344
+           η:        1
+           ζ: ≈2^12.8
+         |S|: ≈2^208.4
+           d:     1418
+        prob:    0.990
+      max_hw:       19
+           ↻:        1
+         tag:   hybrid
+
+logn=14
+logq=100
+h=31
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^169.6
+         red: ≈2^168.8
+         svp: ≈2^168.3
+           β:      427
+           η:        2
+           ζ: ≈2^13.7
+         |S|: ≈2^127.7
+           d:     4140
+        prob: ≈2^-14.3
+      max_hw:       10
+           ↻: ≈2^16.5
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^144.3
+         red: ≈2^143.6
+         svp: ≈2^142.8
+           β:      396
+           η:        2
+           ζ: ≈2^13.8
+         |S|: ≈2^239.1
+           d:     2229
+        prob:    0.900
+      max_hw:       20
+           ↻:        2
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^141.0
+         red: ≈2^140.7
+         svp: ≈2^138.7
+           β:      382
+           η:        2
+           ζ: ≈2^13.8
+         |S|: ≈2^228.2
+           d:     2186
+        prob:    0.685
+      max_hw:       19
+           ↻:        4
+         tag:   hybrid
+
+logn=15
+logq=105
+h=31
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^513.0
+         red: ≈2^47.8
+         svp: ≈2^513.0
+           β:       43
+           η:     1755
+           ζ:        0
+         |S|:        1
+           d:    13897
+        prob:        1
+      max_hw:        0
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^273.8
+         red: ≈2^273.8
+         svp: ≈2^207.2
+           β:      905
+           η:        2
+           ζ: ≈2^15.0
+         |S|: ≈2^375.2
+           d:      905
+        prob:    1.000
+      max_hw:       30
+           ↻:        1
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^513.0
+         red: ≈2^47.8
+         svp: ≈2^513.0
+           β:       43
+           η:     1755
+           ζ:        0
+         |S|:        1
+           d:    13897
+        prob:        1
+      max_hw:        0
+           ↻:        1
+         tag:   hybrid
+
+logn=11
+logq=52
+h=256
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^125.6
+         red: ≈2^125.5
+         svp: ≈2^121.0
+           β:      331
+           η:       31
+           ζ:      203
+         |S|: ≈2^90.6
+           d:     3837
+        prob:    0.991
+      max_hw:       14
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^133.8
+         red: ≈2^133.4
+         svp: ≈2^131.5
+           β:      324
+           η:        2
+           ζ:      402
+         |S|: ≈2^195.9
+           d:     3609
+        prob:    0.005
+      max_hw:       32
+           ↻:      981
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^117.2
+         red: ≈2^116.9
+         svp: ≈2^114.9
+           β:      300
+           η:       66
+           ζ:      303
+         |S|: ≈2^148.0
+           d:     3607
+        prob:    0.991
+      max_hw:       24
+           ↻:        1
+         tag:   hybrid
+
+logn=12
+logq=64
+h=256
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^199.5
+         red: ≈2^199.4
+         svp: ≈2^195.9
+           β:      576
+           η:       21
+           ζ:      684
+         |S|: ≈2^164.9
+           d:     7009
+        prob:    0.143
+      max_hw:       22
+           ↻:       30
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^197.5
+         red: ≈2^196.9
+         svp: ≈2^195.9
+           β:      545
+           η:        2
+           ζ:     1106
+         |S|: ≈2^318.9
+           d:     6435
+        prob:    0.002
+      max_hw:       45
+           ↻: ≈2^11.1
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^176.1
+         red: ≈2^175.4
+         svp: ≈2^174.6
+           β:      508
+           η:       24
+           ζ:      975
+         |S|: ≈2^294.4
+           d:     6379
+        prob:    0.990
+      max_hw:       42
+           ↻:        1
+         tag:   hybrid
+
+logn=12
+logq=104
+h=256
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^122.8
+         red: ≈2^122.7
+         svp: ≈2^119.0
+           β:      317
+           η:       91
+           ζ:      320
+         |S|: ≈2^71.2
+           d:     7644
+        prob:    0.992
+      max_hw:        9
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^125.4
+         red: ≈2^125.1
+         svp: ≈2^122.8
+           β:      305
+           η:        2
+           ζ:      692
+         |S|: ≈2^182.8
+           d:     7170
+        prob:    0.080
+      max_hw:       25
+           ↻:       55
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^113.7
+         red: ≈2^113.5
+         svp: ≈2^110.7
+           β:      284
+           η:       23
+           ζ:      615
+         |S|: ≈2^167.4
+           d:     7063
+        prob:    0.991
+      max_hw:       23
+           ↻:        1
+         tag:   hybrid
+
+logn=13
+logq=117
+h=256
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^214.3
+         red: ≈2^214.0
+         svp: ≈2^212.0
+           β:      642
+           η:       23
+           ζ:     1233
+         |S|: ≈2^183.9
+           d:    14067
+        prob:    0.994
+      max_hw:       22
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^205.2
+         red: ≈2^204.7
+         svp: ≈2^203.6
+           β:      579
+           η:        2
+           ζ: ≈2^11.1
+         |S|: ≈2^335.8
+           d:    12598
+        prob:    0.013
+      max_hw:       41
+           ↻:      346
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^190.3
+         red: ≈2^189.9
+         svp: ≈2^188.4
+           β:      549
+           η:       21
+           ζ:     1977
+         |S|: ≈2^318.0
+           d:    12481
+        prob:    0.701
+      max_hw:       39
+           ↻:        4
+         tag:   hybrid
+
+logn=13
+logq=178
+h=256
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^141.5
+         red: ≈2^141.4
+         svp: ≈2^134.8
+           β:      381
+           η:       29
+           ζ:      808
+         |S|: ≈2^104.9
+           d:    14875
+        prob:    0.996
+      max_hw:       12
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^140.4
+         red: ≈2^140.0
+         svp: ≈2^138.4
+           β:      356
+           η:        2
+           ζ:     1486
+         |S|: ≈2^210.6
+           d:    13836
+        prob:    0.094
+      max_hw:       25
+           ↻:       47
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^131.9
+         red: ≈2^131.5
+         svp: ≈2^129.6
+           β:      340
+           η:       21
+           ζ:     1362
+         |S|: ≈2^200.8
+           d:    13723
+        prob:    0.880
+      max_hw:       24
+           ↻:        3
+         tag:   hybrid
+
+logn=15
+logq=767
+h=192
+sigma=3.19
+rotated, no mitm:
+         rop: ≈2^129.0
+         red: ≈2^128.7
+         svp: ≈2^126.5
+           β:      328
+           η:       41
+           ζ: ≈2^11.8
+         |S|: ≈2^92.4
+           d:    58253
+        prob:    0.998
+      max_hw:        8
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^123.3
+         red: ≈2^122.8
+         svp: ≈2^121.6
+           β:      301
+           η:        2
+           ζ: ≈2^12.5
+         |S|: ≈2^177.2
+           d:    54347
+        prob:    0.785
+      max_hw:       16
+           ↻:        3
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^120.7
+         red: ≈2^119.8
+         svp: ≈2^119.6
+           β:      296
+           η:       21
+           ζ: ≈2^12.4
+         |S|: ≈2^176.3
+           d:    54229
+        prob:    0.997
+      max_hw:       16
+           ↻:        1
+         tag:   hybrid
+
+
+logn=16
+logq=1553
+h=192
+sigma=3.19
+rotated, no mitm:
+         rop: ≈2^128.7
+         red: ≈2^128.6
+         svp: ≈2^122.9
+           β:      324
+           η:        1
+           ζ: ≈2^12.8
+         |S|: ≈2^89.2
+           d:   116911
+        prob:    0.994
+      max_hw:        7
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^122.5
+         red: ≈2^122.1
+         svp: ≈2^120.6
+           β:      295
+           η:        2
+           ζ: ≈2^13.4
+         |S|: ≈2^171.1
+           d:   109124
+        prob:    0.785
+      max_hw:       14
+           ↻:        3
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^120.7
+         red: ≈2^120.2
+         svp: ≈2^118.6
+           β:      294
+           η:       21
+           ζ: ≈2^13.4
+         |S|: ≈2^170.3
+           d:   109432
+        prob:    0.993
+      max_hw:       14
+           ↻:        1
+         tag:   hybrid
+
+logn=17
+logq=3104
+h=192
+sigma=3.19
+rotated, no mitm:
+         rop: ≈2^130.0
+         red: ≈2^129.9
+         svp: ≈2^125.3
+           β:      325
+           η:       68
+           ζ: ≈2^13.7
+         |S|: ≈2^83.8
+           d:   234552
+        prob:    0.994
+      max_hw:        6
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^123.2
+         red: ≈2^122.6
+         svp: ≈2^121.7
+           β:      299
+           η:        2
+           ζ: ≈2^14.3
+         |S|: ≈2^172.4
+           d:   220470
+        prob:    0.990
+      max_hw:       13
+           ↻:        1
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^122.7
+         red: ≈2^121.8
+         svp: ≈2^121.6
+           β:      296
+           η:        1
+           ζ: ≈2^14.3
+         |S|: ≈2^172.3
+           d:   219744
+        prob:    0.990
+      max_hw:       13
+           ↻:        1
+         tag:   hybrid
+
+logn=16
+logq=1518
+h=192
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^131.4
+         red: ≈2^131.4
+         svp: ≈2^122.9
+           β:      334
+           η:       21
+           ζ: ≈2^12.8
+         |S|: ≈2^89.2
+           d:   116780
+        prob:    0.995
+      max_hw:        7
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^125.2
+         red: ≈2^125.1
+         svp: ≈2^119.8
+           β:      308
+           η:        2
+           ζ: ≈2^13.4
+         |S|: ≈2^170.7
+           d:   109702
+        prob:    0.918
+      max_hw:       14
+           ↻:        2
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^123.3
+         red: ≈2^123.3
+         svp: ≈2^118.6
+           β:      305
+           η:        1
+           ζ: ≈2^13.4
+         |S|: ≈2^170.3
+           d:   109510
+        prob:    0.992
+      max_hw:       14
+           ↻:        1
+         tag:   hybrid
+
+logn=16
+logq=104
+h=32
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^513.0
+         red: ≈2^48.3
+         svp: ≈2^513.0
+           β:       43
+           η:     1755
+           ζ:        0
+         |S|:        1
+           d:    19559
+        prob:        1
+      max_hw:        0
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^649.0
+         red: ≈2^649.0
+         svp: ≈2^237.7
+           β:     2235
+           η:        2
+           ζ: ≈2^16.0
+         |S|: ≈2^428.9
+           d:     2235
+        prob:    0.945
+      max_hw:       32
+           ↻:        2
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^513.0
+         red: ≈2^48.3
+         svp: ≈2^513.0
+           β:       43
+           η:     1755
+           ζ:        0
+         |S|:        1
+           d:    19559
+        prob:        1
+      max_hw:        0
+           ↻:        1
+         tag:   hybrid
+
+logn=15
+logq=679
+h=192
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^145.4
+         red: ≈2^145.4
+         svp: ≈2^138.5
+           β:      379
+           η:       23
+           ζ: ≈2^12.1
+         |S|: ≈2^104.3
+           d:    56833
+        prob:    0.554
+      max_hw:        9
+           ↻:        6
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^137.1
+         red: ≈2^137.0
+         svp: ≈2^133.5
+           β:      348
+           η:        2
+           ζ: ≈2^12.6
+         |S|: ≈2^198.6
+           d:    52976
+        prob:    0.482
+      max_hw:       18
+           ↻:        7
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^133.9
+         red: ≈2^133.5
+         svp: ≈2^132.1
+           β:      342
+           η:       32
+           ζ: ≈2^12.6
+         |S|: ≈2^197.9
+           d:    52806
+        prob:    0.906
+      max_hw:       18
+           ↻:        2
+         tag:   hybrid
+
+logn=15
+logq=780
+h=192
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^126.8
+         red: ≈2^126.5
+         svp: ≈2^124.3
+           β:      320
+           η:       27
+           ζ: ≈2^11.8
+         |S|: ≈2^92.4
+           d:    58261
+        prob:    0.998
+      max_hw:        8
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^121.8
+         red: ≈2^121.8
+         svp: ≈2^117.0
+           β:      296
+           η:        2
+           ζ: ≈2^12.5
+         |S|: ≈2^167.1
+           d:    54654
+        prob:    0.718
+      max_hw:       15
+           ↻:        4
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^119.0
+         red: ≈2^118.8
+         svp: ≈2^115.9
+           β:      289
+           η:       26
+           ζ: ≈2^12.4
+         |S|: ≈2^166.7
+           d:    54289
+        prob:    0.925
+      max_hw:       15
+           ↻:        2
+         tag:   hybrid
+
+logn=16
+logq=1555
+h=192
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^128.4
+         red: ≈2^128.4
+         svp: ≈2^122.9
+           β:      323
+           η:        1
+           ζ: ≈2^12.8
+         |S|: ≈2^89.2
+           d:   116862
+        prob:    0.994
+      max_hw:        7
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^122.3
+         red: ≈2^122.2
+         svp: ≈2^118.6
+           β:      301
+           η:        2
+           ζ: ≈2^13.4
+         |S|: ≈2^170.1
+           d:   110540
+        prob:    0.991
+      max_hw:       14
+           ↻:        1
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^120.7
+         red: ≈2^120.2
+         svp: ≈2^118.6
+           β:      294
+           η:        1
+           ζ: ≈2^13.4
+         |S|: ≈2^170.3
+           d:   109512
+        prob:    0.990
+      max_hw:       14
+           ↻:        1
+         tag:   hybrid
+
+logn=16
+logq=1533
+h=192
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^130.0
+         red: ≈2^130.0
+         svp: ≈2^123.2
+           β:      329
+           η:       34
+           ζ: ≈2^12.8
+         |S|: ≈2^89.2
+           d:   116746
+        prob:    0.994
+      max_hw:        7
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^123.9
+         red: ≈2^123.8
+         svp: ≈2^120.6
+           β:      301
+           η:        2
+           ζ: ≈2^13.4
+         |S|: ≈2^171.0
+           d:   109185
+        prob:    0.785
+      max_hw:       14
+           ↻:        3
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^122.0
+         red: ≈2^121.9
+         svp: ≈2^118.6
+           β:      300
+           η:       22
+           ζ: ≈2^13.4
+         |S|: ≈2^170.3
+           d:   109481
+        prob:    0.995
+      max_hw:       14
+           ↻:        1
+         tag:   hybrid
+
+logn=16
+logq=118
+h=30
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^513.0
+         red: ≈2^48.4
+         svp: ≈2^513.0
+           β:       43
+           η:     1755
+           ζ:        0
+         |S|:        1
+           d:    20834
+        prob:        1
+      max_hw:        0
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^554.6
+         red: ≈2^554.6
+         svp: ≈2^225.3
+           β:     1900
+           η:        2
+           ζ: ≈2^16.0
+         |S|: ≈2^405.1
+           d:     1901
+        prob:    0.912
+      max_hw:       30
+           ↻:        2
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^513.0
+         red: ≈2^48.4
+         svp: ≈2^513.0
+           β:       43
+           η:     1755
+           ζ:        0
+         |S|:        1
+           d:    20834
+        prob:        1
+      max_hw:        0
+           ↻:        1
+         tag:   hybrid
+
+logn=15
+logq=934
+h=64
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^92.2
+         red: ≈2^91.9
+         svp: ≈2^89.7
+           β:      183
+           η:       31
+           ζ: ≈2^13.0
+         |S|: ≈2^54.5
+           d:    48345
+        prob:    0.369
+      max_hw:        4
+           ↻:       11
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^84.5
+         red: ≈2^83.5
+         svp: ≈2^83.5
+           β:      162
+           η:        2
+           ζ: ≈2^13.4
+         |S|: ≈2^103.2
+           d:    44121
+        prob:    0.901
+      max_hw:        8
+           ↻:        2
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^83.4
+         red: ≈2^82.5
+         svp: ≈2^82.3
+           β:      162
+           η:        1
+           ζ: ≈2^13.3
+         |S|: ≈2^102.8
+           d:    44577
+        prob:    0.991
+      max_hw:        8
+           ↻:        1
+         tag:   hybrid
+
+logn=16
+logq=1496
+h=64
+sigma=3.2
+rotated, no mitm:
+         rop: ≈2^109.9
+         red: ≈2^109.2
+         svp: ≈2^108.5
+           β:      243
+           η:        2
+           ζ: ≈2^14.2
+         |S|: ≈2^72.2
+           d:    91911
+        prob:    0.371
+      max_hw:        5
+           ↻:       10
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^98.6
+         red: ≈2^98.2
+         svp: ≈2^96.6
+           β:      210
+           η:        2
+           ζ: ≈2^14.5
+         |S|: ≈2^124.8
+           d:    82381
+        prob:    0.785
+      max_hw:        9
+           ↻:        3
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^97.9
+         red: ≈2^97.1
+         svp: ≈2^96.6
+           β:      206
+           η:        2
+           ζ: ≈2^14.5
+         |S|: ≈2^124.8
+           d:    81657
+        prob:    0.788
+      max_hw:        9
+           ↻:        3
+         tag:   hybrid
+
+logn=14
+logq=404
+h=256
+ternary error
+rotated, no mitm:
+         rop: ≈2^124.5
+         red: ≈2^124.5
+         svp: ≈2^120.1
+           β:      316
+           η:       22
+           ζ:     1396
+         |S|: ≈2^90.3
+           d:    29961
+        prob:    0.999
+      max_hw:        9
+           ↻:        1
+         tag:   hybrid
+
+rotated, babai, mitm (square root):
+         rop: ≈2^122.6
+         red: ≈2^122.5
+         svp: ≈2^118.7
+           β:      299
+           η:        2
+           ζ: ≈2^11.2
+         |S|: ≈2^172.7
+           d:    28463
+        prob:    0.487
+      max_hw:       18
+           ↻:        7
+         tag:   hybrid
+
+rotated, mitm (square root):
+         rop: ≈2^118.0
+         red: ≈2^117.2
+         svp: ≈2^116.8
+           β:      290
+           η:       31
+           ζ: ≈2^11.1
+         |S|: ≈2^171.6
+           d:    28252
+        prob:    0.993
+      max_hw:       18
+           ↻:        1
+         tag:   hybrid
+
+

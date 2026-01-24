@@ -1,0 +1,3 @@
+[submodule "hintLWE-IND-CPA-D"]
+	path = hintLWE-IND-CPA-D
+	url = https://github.com/TabOg/hintLWE-IND-CPA-D.git

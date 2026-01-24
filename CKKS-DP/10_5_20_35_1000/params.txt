@@ -1,0 +1,6 @@
+/
+| Encryption parameters :
+|   scheme: CKKS
+|   poly_modulus_degree: 512
+|   coeff_modulus size: 880 (55 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 35 + 55) bits
+\
