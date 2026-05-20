@@ -1,5 +1,5 @@
 import sage
-from estimator import *
+from lattice_estimator.estimator import *
 from sage.all import oo
 from lwe_rot_primal import rot_primal_hybrid
 
@@ -24,8 +24,10 @@ gaussian_params = [
     (16, 1555, 192, 3.2),
     (16, 1533, 192, 3.2),
     (16, 118, 30, 3.2),
+    (16, 300, 128, 3.2),
     (15, 934, 64, 3.2),
     (16, 1496, 64, 3.2),
+    
 ]
 
 # ternary secret
@@ -37,43 +39,38 @@ ternary_params = [
 cost_model = RC.MATZOV
 
 for (logn, logq, h, sigma) in gaussian_params:
-    print(f"{logn=}\n{logq=}\n{h=}\n{sigma=}")
+    print(f"{logn=}, {logq=}, {h=}, {sigma=}")
     h_half = h // 2
     
-    parameters = LWE.Parameters(n=2**logn, q = 2**logq, Xs=ND.SparseTernary(p=h_half, m=h_half, n=2 ** logn), Xe=ND.DiscreteGaussian(stddev=sigma), m=oo)
+    params = LWE.Parameters(n=2**logn, q = 2**logq, Xs=ND.SparseTernary(p=h_half, m=h-h_half, n=2 ** logn), Xe=ND.DiscreteGaussian(stddev=sigma), m=oo)
 
-    rot_primal_estimate_no_mitm = rot_primal_hybrid(parameters, babai=False, mitm=False, red_cost_model=cost_model, ternary_search_=True)
-    print("rotated, no mitm:")
-    print(rot_primal_estimate_no_mitm)
-    print()
-
-    rot_primal_estimate_babai_mitm = rot_primal_hybrid(parameters, babai=True, mitm=True, mitm_heuristic="square root", red_cost_model=cost_model, ternary_search_=True)
-    print("rotated, babai, mitm (square root):")
-    print(rot_primal_estimate_babai_mitm)
-    print()
+    # these are all RLWE; poly_degree = params.n
+    poly_degree = params.n
     
-    rot_primal_estimate_mitm = rot_primal_hybrid(parameters, babai=False, mitm=True, mitm_heuristic="square root", red_cost_model=cost_model, ternary_search_=True)
-    print("rotated, mitm (square root):")
-    print(rot_primal_estimate_mitm)
+    ring_no_mitm_estimate = rot_primal_hybrid(params, babai=False, mitm=False, poly_degree=poly_degree)
+    print(f"\t{ring_no_mitm_estimate=}")
+    
+    ring_babai_mitm_estimate = rot_primal_hybrid(params, babai=True, mitm=True, mitm_heuristic="square root", poly_degree=poly_degree)
+    print(f"\t{ring_babai_mitm_estimate=}")
+    
+    ring_svp_mitm_estimate = rot_primal_hybrid(params, babai=False, mitm=True, mitm_heuristic="square root", poly_degree=poly_degree)
+    print(f"\t{ring_svp_mitm_estimate=}")
     print()
     
 
 for (logn, logq, h) in ternary_params:
-    print(f"{logn=}\n{logq=}\n{h=}\nternary error")
+    print(f"{logn=}, {logq=}, {h=}, ternary error")
     h_half = h // 2
-    parameters = LWE.Parameters(n=2**logn, q = 2**logq, Xs=ND.SparseTernary(p=h_half, m=h_half, n=2 ** logn), Xe=ND.Uniform(-1, 1), m=oo)
+    params = LWE.Parameters(n=2**logn, q = 2**logq, Xs=ND.SparseTernary(p=h_half, m=h_half, n=2 ** logn), Xe=ND.Uniform(-1, 1), m=oo)
     
-    rot_primal_estimate_no_mitm = rot_primal_hybrid(parameters, babai=False, mitm=False, red_cost_model=cost_model, ternary_search_=False)
-    print("rotated, no mitm:")
-    print(rot_primal_estimate_no_mitm)
-    print()
-
-    rot_primal_estimate_babai_mitm = rot_primal_hybrid(parameters, babai=True, mitm=True, mitm_heuristic="square root", red_cost_model=cost_model, ternary_search_=True)
-    print("rotated, babai, mitm (square root):")
-    print(rot_primal_estimate_babai_mitm)
-    print()
+    # these are all RLWE; poly_degree = params.n
+    poly_degree = params.n
     
-    rot_primal_estimate_mitm = rot_primal_hybrid(parameters, babai=False, mitm=True, mitm_heuristic="square root", red_cost_model=cost_model, ternary_search_=True)
-    print("rotated, mitm (square root):")
-    print(rot_primal_estimate_mitm)
-    print()
+    ring_no_mitm_estimate = rot_primal_hybrid(params, babai=False, mitm=False, poly_degree=poly_degree)
+    print(f"\t{ring_no_mitm_estimate=}")
+    
+    ring_babai_mitm_estimate = rot_primal_hybrid(params, babai=True, mitm=True, mitm_heuristic="square root", poly_degree=poly_degree)
+    print(f"\t{ring_babai_mitm_estimate=}")
+    
+    ring_svp_mitm_estimate = rot_primal_hybrid(params, babai=False, mitm=True, mitm_heuristic="square root", poly_degree=poly_degree)
+    print(f"\t{ring_svp_mitm_estimate=}")

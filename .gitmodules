@@ -1,3 +1,6 @@
 [submodule "hintLWE-IND-CPA-D"]
 	path = hintLWE-IND-CPA-D
 	url = https://github.com/TabOg/hintLWE-IND-CPA-D.git
+[submodule "Sparse-RLWE/lattice_estimator"]
+	path = Sparse-RLWE/lattice_estimator
+	url = https://github.com/malb/lattice-estimator.git
